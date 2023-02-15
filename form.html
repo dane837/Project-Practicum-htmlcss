@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <a href="text.html">Text</a>
+        <a href="list.html"> | List</a>
+        <a href="link.html">| Link</a>
+        <a href="image.html">| Image</a>
+        <a href="table.html">| Table</a>
+        <a href="form.html">| Form</a>
+
+        <h1>Login Your Account</h1>
+
+        <form action="http://ww.example.com/login.php">
+            <p>Username: 
+            <input type="text" name="username"/>
+            </p>
+
+            <p>Password:  
+                <input type="password" name="password"/>
+            </p>
+            
+        </form>
+
+        <form action="http://www.example.com/login"method="post">
+            <label for="username">Username:</label> 
+            <input type="text" name="username"
+            required="required"/></form></title> <br/>
+            
+            <label for="password">Password:</label> 
+            <input type="text" name="Password"
+            required="required"/></form></title> <br/>
+            
+            <input type="submit" value="Submit"/>
+            
+        </form>
+
+        <h2>What is in your mind?</h2>
+
+        <form action="http://ww.example.com/comments.php" >
+            <textarea name="comment">
+                 </textarea>
+                 
+            
+        </form>
+
+        <form action="http://ww.example.com/submit.php">
+            <input type="submit" href="successful.html"/>
+        </form>
+
+        <h2>Please Upload Your File Here: </h2>
+
+        <form action="http://ww.example.com/upload.php"
+            method="post">
+            
+        
+            <input type="file" name="user-song"/>
+            <br/>
+            <p>Upload Here:</p>
+            <input type="submit" value="Upload"/>
+        </form>
+        <br/>
+        <form action="http://ww.example.com/button.php" method="get">
+        <h2>Grouping Form Elements</h2>
+        <fieldset>
+            <leagend>Contact Details</leagend>
+            <label>Email: <br/>
+            <input type="text" name="email" size="30" maxlength="100"/>
+        </label><br/><label>Mobile:<br/>
+            <input type="text" name="mobile" size="30" maxlength="100"/>
+        </label><br/><label>Telephone<br/>
+            <input type="text" name="telephone" size="30" maxlength="100"/>
+        </label><br/><label><br/>
+            </label>
+        </fieldset>
+    </form>
+
+        <h2>Button Add</h2>
+        <form action="http://ww.example.com/button.php">
+            <button><img src="images/add.jpg" width="10" height="10"/> Add
+            </button>
+            <input type="hidden" name="bookmark" value="lyrics"/>
+        </form>
+        
+        <h2>Please choose</h2>
+
+        <form action="http://ww.example.com/profile.php">     
+            <p>Please select your Color
+            <br/>
+            <input type="radio" name="genre" value="Rock"
+            checked="checked" />Rock
+            <input type="radio" name="genre" value="Pop" />Pop
+            <input type="radio" name="genre" value="Jazz" />Jazz
+            </p>
+
+            <h2>Check as a Box</h2>
+            <p>Please select your favorite music serrvice(s): </p>
+            <input type="checkbox" name="sevice" value="itunes"
+            checked="checked"/> iTunes
+            <input type="checkbox" name="service" value="lastfm"/>Last.fm
+            <input type="checkbox" name="service" value="spotify"/>Spotify
+        </form>
+
+        <form action="http://ww.example.com/profile.php">
+            <h2>What device do you listen to music on?</h2>
+            <select name="devices">
+                <option value="ipod">Andriod</option>
+                <option value="ipod">iphone</option>
+                <option value="ipod">Computer</option>
+            </select>
+
+            
+            <h2>My Store</h2>
+            <select name="instruments" size="5">
+                multiple="multiple">
+                <option value="All categories" selected="selected">All Categories</option>
+                <option value="game" >Game</option>
+                <option value="hardware" >Hardware</option>
+                <option value="news&events" >News & Events</option>
+                <option value="support">Support</option>
+        </form>
+        <hr/>
+        
+        
+        
+    </body>
+</html>
